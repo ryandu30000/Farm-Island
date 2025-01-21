@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Util
+comment0.text=\r\n\ Modular\ utilities\r\n\ \r\n\ @author\ Jordan\ Cohen\ \r\n\ @version\ 1.0\r\n
+comment1.params=actorsToSort\ world
+comment1.target=void\ zSort(java.util.ArrayList,\ greenfoot.World)
+comment1.text=\r\n\ A\ z-sort\ method\ which\ will\ sort\ Actors\ so\ that\ Actors\ that\ are\r\n\ displayed\ "higher"\ on\ the\ screen\ (lower\ y\ values)\ will\ show\ up\ underneath\r\n\ Actors\ that\ are\ drawn\ "lower"\ on\ the\ screen\ (higher\ y\ values),\ creating\ a\r\n\ better\ perspective.\ \r\n
+numComments=2

@@ -1,0 +1,20 @@
+374
+Tiles Start
+15
+15
+null
+1.0
+Tiles End
+Plants Inventory Start
+FERTILIZER
+10
+STUBBY_WHEAT_SEED
+25
+DIRT_TILE
+11
+WHEAT_SEED
+17
+Plants Inventory End
+Achievements Start
+0
+Achievements End

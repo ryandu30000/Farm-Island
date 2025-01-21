@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=ToggleButton
+comment0.text=\r\n\ Button\ that\ will\ toggle\ on\ and\ off\r\n\ \r\n\ @author\ Zhaoqi\ Xu\r\n\ @version\ January\ 2023\r\n
+comment1.params=name
+comment1.target=ToggleButton(java.lang.String)
+comment1.text=\r\n\ basic\ constructor\r\n\ \r\n\ @param\ name\ name\ of\ image\r\n
+comment2.params=
+comment2.target=boolean\ hoveringThis()
+comment2.text=\r\n\ checks\ if\ the\ cursor\ is\ hovering\ the\ button\r\n\ \r\n\ @return\ boolean\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ do\ whatever\ the\ Toggle\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment4.params=
+comment4.target=boolean\ getToggle()
+comment4.text=\r\n\ gets\ the\ state\ of\ the\ button\r\n\ \r\n\ @return\ boolean\ the\ state\ of\ the\ button\r\n
+comment5.params=
+comment5.target=void\ release()
+comment6.params=
+comment6.target=void\ click()
+comment6.text=\r\n\ sets\ the\ image\ acording\ to\ toggle\r\n
+comment7.params=
+comment7.target=void\ hover()
+numComments=8

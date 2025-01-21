@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Tool
+comment0.text=\r\n\ Class\ for\ tools\ that\ the\ user\ can\ use.\r\n\ \r\n\ @author\:\ Zhaoqi\ Xu,\ Mandy\ Zhuang\r\n\ @version\ December\ 2023\r\n
+comment1.params=ID
+comment1.target=Tool(ObjectID)
+comment1.text=\r\n\ Constructor\ for\ the\ Tool\ class.\r\n\ \r\n\ @param\ ID\ The\ ObjectID\ of\ the\ tool.\r\n
+comment2.params=w
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment3.params=
+comment3.target=int\ getEfficiency()
+comment3.text=\r\n\ Gets\ the\ efficiency\ of\ the\ tool.\r\n\ \r\n\ @return\ int\ -\ The\ efficiency\ of\ the\ tool.\r\n
+comment4.params=
+comment4.target=void\ takeDurability()
+comment4.text=\r\n\ Takes\ away\ from\ the\ durability\ of\ the\ tool.\r\n
+comment5.params=
+comment5.target=void\ activateEffect()
+comment5.text=\r\n\ Activates\ the\ effect\ associated\ with\ the\ tool.\r\n
+comment6.params=
+comment6.target=void\ act()
+comment6.text=\r\n\ Act\ method\ for\ the\ Tool\ class.\r\n\ This\ method\ is\ called\ whenever\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment7.params=ID
+comment7.target=void\ setEfficiencyBasedOnType(ObjectID)
+comment7.text=\r\n\ sets\ the\ efficiency\ based\ on\ ID\r\n\ \r\n\ @param\ ID\ the\ ID\ of\ the\ object\r\n
+comment8.params=ID
+comment8.target=void\ setUnbreakableStatusBasedOnType(ObjectID)
+comment8.text=\r\n\ sets\ the\ tool\ to\ unbreakable\r\n\ @param\ ID\ the\ ID\ of\ the\ tool\r\n
+numComments=9
