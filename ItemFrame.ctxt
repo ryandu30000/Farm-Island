@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=ItemFrame
+comment0.text=\r\n\ A\ class\ representing\ a\ frame\ for\ displaying\ an\ item\ in\ the\ world.\r\n\ This\ class\ provides\ a\ frame\ with\ a\ background\ and\ a\ foreground\ image\ to\ display\ an\ item.\r\n\ It\ allows\ updating\ the\ displayed\ item\ and\ checking\ if\ the\ frame\ is\ being\ hovered.\ \r\n\ \r\n\ @author\:\ Zhaoqi\ Xu\r\n\ @version\:\ January\ 2024\ \r\n
+comment1.params=ID
+comment1.target=ItemFrame(ObjectID)
+comment1.text=\r\n\ Constructs\ an\ ItemFrame\ with\ a\ default\ size\ of\ 128x128.\r\n\ \r\n\ @param\ ID\ The\ ObjectID\ representing\ the\ item\ to\ be\ displayed\ in\ the\ frame.\r\n
+comment2.params=ID\ width\ height
+comment2.target=ItemFrame(ObjectID,\ int,\ int)
+comment2.text=\r\n\ Constructs\ an\ ItemFrame\ with\ a\ specified\ size.\r\n\ \r\n\ @param\ ID\ The\ ObjectID\ representing\ the\ item\ to\ be\ displayed\ in\ the\ frame.\r\n\ @param\ width\ The\ width\ of\ the\ frame.\r\n\ @param\ height\ The\ height\ of\ the\ frame.\r\n
+comment3.params=ID\ imageName\ width\ height
+comment3.target=ItemFrame(ObjectID,\ java.lang.String,\ int,\ int)
+comment4.params=
+comment4.target=ObjectID\ getID()
+comment4.text=\r\n\ Gets\ the\ ObjectID\ of\ the\ item\ displayed\ in\ the\ frame.\r\n\ \r\n\ @return\ The\ ObjectID\ of\ the\ item.\r\n
+comment5.params=ID
+comment5.target=void\ updateID(ObjectID)
+comment5.text=\r\n\ Updates\ the\ displayed\ item\ in\ the\ frame.\r\n\ \r\n\ @param\ ID\ The\ new\ ObjectID\ representing\ the\ item\ to\ be\ displayed.\r\n
+comment6.params=
+comment6.target=void\ drawFrame()
+comment6.text=\r\n\ Draws\ the\ frame\ with\ the\ background\ and\ the\ displayed\ item.\r\n\ Adjusts\ the\ scale\ and\ position\ of\ the\ foreground\ image\ to\ fit\ within\ the\ frame.\r\n
+comment7.params=
+comment7.target=boolean\ hoveringThis()
+comment7.text=\r\n\ Checks\ if\ the\ mouse\ is\ hovering\ over\ the\ frame.\r\n\ \r\n\ @return\ True\ if\ the\ mouse\ is\ hovering\ over\ the\ frame,\ false\ otherwise.\r\n
+numComments=8

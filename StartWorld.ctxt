@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=StartWorld
+comment0.text=\r\n\ Game\ description\:\r\n\ The\ game\ is\ a\ farming\ game\ where\ we\ start\ off\ with\ a\ single\ block.\ Through\ farming\ we\ are\ able\ to\ expand\ our\ land\ and\ unlock\ various\ types\ of\ plants\r\n\ by\ feeing\ porcus\ the\ pig.\ Have\ fun\ \:)\r\n\ \r\n\ Goal\:\r\n\ -\ expand\ your\ island\r\n\ -\ feed\ the\ pig\ to\ the\ fattest\ form\ (stage\ 4)\r\n\ -\ unlock\ and\ plant\ Porcus\ Wheat\!\!\!\r\n\ \r\n\ UI\ help/How\ to\ play\:\r\n\ -\ right\ click\ drag\ to\ move\ islands\r\n\ -\ left\ click\ equip\ slot\ to\ use\ item\r\n\ -\ hoe\ used\ to\ harvest\ plants\r\n\ -\ shovel\ used\ to\ remove\ plants\ (not\ harvest)\r\n\ -\ equip\ seed\ and\ left\ click\ island\ to\ plant\ it\ (you\ can\ hold\ and\ drag)\r\n\ -\ the\ pig\ upgrade\ requirments\ are\ on\ the\ top\ of\ the\ pig\ menu\r\n\ -\ go\ to\ the\ shop\ to\ purchase\ seeds\r\n\ -\ click\ on\ inventory\ item\ to\ equip\ it\ or\ feed\ the\ pig\r\n\ \r\n\ Saving\:\r\n\ -\ Save\ your\ progress\ by\ clicking\ the\ save\ button,\ and\ type\ in\ the\ file\ name.\r\n\ -\ To\ load\ your\ game\ just\ click\ on\ a\ previous\ save\ file.\r\n\ \r\n\ Buttons\:\r\n\ -\ press\ the\ home\ button\ in\ case\ you\ lose\ your\ islands\r\n\ -\ space\ bar\ to\ remove\ islands\r\n\ -\ toggle\ button\ to\ switch\ betwee\ building\ modes\r\n\ -\ open\ left\ pig\ menu\ to\ feed\ the\ pig\ and\ unlock\ new\ plants\r\n\ -\ save\ button\ to\ save\ progress\r\n\ -\ achievement\ button\ to\ view\ achievments\r\n\ -\ inventory\ button\ to\ slide\ open\ inventory\r\n\ \r\n\ features\:\r\n\ -\ pig\ has\ 4\ stages\ that\ it\ can\ grow\ to\r\n\ -\ islands\ can\ move\ to\ expand\ in\ a\ 32\ x\ 32\ area\r\n\ -\ interactive\ shop,\ inventory,\ and\ equip\r\n\ -\ numerous\ unlockable\ plants\r\n\ -\ So\ much\ more\!\!\!\ (play\ the\ game\ please)\r\n\ \r\n\ Known\ Bugs/redudant\ visuals\:\r\n\ -\ fertilizer\ not\ working\ so\ the\ third\ inventory\ slot\ will\ not\ be\ filled\r\n\ -\ inventory\ arrows\ do\ not\ do\ anything\r\n\ -\ shop\ allows\ you\ to\ scroll\ to\ infinity\ and\ numbers\ do\ not\ fade\ properly\r\n\ \r\n\ @author\:\ Zhaoqi\ Xu,\ Ryan\ Du,\ Carson\ Cooc\r\n\ @version\:\ January\ 2024\r\n
+comment1.params=
+comment1.target=StartWorld()
+comment1.text=\r\n\ Constructor\ for\ this\ class\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Responds\ to\ button\ clicks\ in\ the\ TitleScreen\ by\ executing\ corresponding\ actions.\r\n\ -\ Clicking\ the\ "Start"\ button\ stops\ the\ title\ screen\ music\ and\ transitions\ to\ the\ GameWorld.\r\n\ -\ Clicking\ the\ "Load"\ button\ prompts\ the\ user\ to\ enter\ a\ file\ name\ via\ the\ console,\r\n\ \ \ attempts\ to\ load\ the\ specified\ file,\ and\ transitions\ to\ the\ GameWorld\ if\ successful.\r\n\ -\ Clicking\ the\ "Settings"\ button\ transitions\ to\ the\ SettingsWorld\ and\ stops\ the\ title\ screen\ music.\r\n\ -\ Clicking\ the\ "Quit"\ button\ terminates\ the\ Greenfoot\ application.\r\n
+comment3.params=
+comment3.target=void\ initialize()
+comment3.text=\r\n\ Initializes\ the\ TitleScreen\ world\ by\ setting\ up\ background\ music,\ paint\ order,\r\n\ and\ creating\ buttons\ for\ starting,\ loading,\ adjusting\ settings,\ and\ quitting\ the\ game.\r\n\ The\ buttons\ are\ configured\ with\ transparency\ and\ text,\ and\ added\ to\ the\ world.\r\n\ Additional\ effects,\ such\ as\ a\ rocking\ island\ and\ pulsating\ clouds,\ are\ also\ added\ for\ visual\ appeal.\r\n
+comment4.params=
+comment4.target=void\ started()
+comment4.text=\r\n\ Callback\ method\ called\ when\ the\ TitleScreen\ scenario\ has\ started.\r\n\ Initiates\ the\ playback\ of\ background\ music\ for\ the\ TitleScreen.\r\n
+comment5.params=
+comment5.target=void\ stopped()
+comment5.text=\r\n\ Callback\ method\ called\ when\ the\ TitleScreen\ scenario\ has\ stopped.\r\n\ Pauses\ the\ background\ music\ for\ the\ TitleScreen.\r\n
+numComments=6

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=GameInfo
+comment0.text=\r\n\ Manages\ the\ saving\ and\ loading\ aspects\ for\ the\ game.\r\n\ \r\n\ @author\:\ Ryan\ Du\r\n\ @version\:\ January\ 2024\r\n
+comment1.params=w
+comment1.target=void\ saveGame(greenfoot.World)
+comment1.text=\r\n\ Saves\ the\ contents\ of\ the\ world\ to\ a\ file\ in\ the\ saves\ folder.\r\n\ \r\n\ @param\ w\ World\ that\ is\ being\ saved.\r\n
+comment2.params=savedFile
+comment2.target=void\ loadMoney(java.lang.String)
+comment2.text=\r\n\ Loads\ the\ money\ using\ the\ information\ from\ a\ saved\ file.\r\n\ \r\n\ @param\ savedFile\ File\ that\ is\ being\ used.\r\n
+comment3.params=savedFile
+comment3.target=void\ loadInventory(java.lang.String)
+comment3.text=\r\n\ Loads\ the\ inventory\ using\ the\ information\ from\ a\ saved\ file.\r\n\ \r\n\ @param\ savedFile\ File\ that\ is\ being\ used.\r\n
+comment4.params=savedFile\ w
+comment4.target=void\ loadTiles(java.lang.String,\ greenfoot.World)
+comment4.text=\r\n\ Loads\ the\ tiles\ using\ the\ information\ from\ a\ saved\ file.\r\n\ \r\n\ @param\ savedFile\ File\ that\ is\ being\ used.\r\n\ @param\ w\ World\ that\ the\ tiles\ are\ added\ to.\r\n
+comment5.params=savedFile
+comment5.target=void\ loadAchievements(java.lang.String)
+comment6.params=savedFile\ p
+comment6.target=void\ loadPorcus(java.lang.String,\ PorcusMenu)
+numComments=7

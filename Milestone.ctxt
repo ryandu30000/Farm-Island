@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Milestone
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Milestone\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=ID\ amount
+comment1.target=Milestone(ObjectID,\ int)
+comment2.params=
+comment2.target=int\ getAmount()
+comment3.params=
+comment3.target=ObjectID\ getID()
+numComments=4

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=PlayerStatus
+comment0.text=\r\n\ PlayerStatus\ class\ represents\ the\ status\ of\ the\ player\ in\ the\ game.\r\n\ It\ provides\ methods\ to\ access\ and\ modify\ player-related\ status\ information.\r\n\ \r\n\ @author\:\ Zhaoqi\ Xu\ \r\n\ @version\:\ January\ 2024\r\n
+comment1.params=
+comment1.target=boolean\ isReplant()
+comment1.text=\r\n\ Returns\ the\ current\ replant\ status.\r\n\ \r\n\ @return\ true\ if\ replanting\ is\ enabled,\ false\ otherwise.\r\n
+comment2.params=replant
+comment2.target=void\ setReplant(boolean)
+comment2.text=\r\n\ Sets\ the\ replant\ status.\r\n\ \r\n\ @param\ replantStatus\ true\ to\ enable\ replanting,\ false\ to\ disable\ replanting.\r\n
+numComments=3

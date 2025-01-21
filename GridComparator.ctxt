@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=GridComparator
+comment0.text=\r\n\ Custom\ comparator\ for\ comparing\ GridPath\ objects\ based\ on\ their\ total\ cost.\r\n\ Used\ in\ priority\ queues\ or\ sorting\ algorithms\ to\ prioritize\ nodes\ with\ lower\ total\ cost.\r\n\ \r\n\ @author\:\ Zhaoqi\ Xu\r\n\ @version\:\ January\ 2024\r\n
+comment1.params=g1\ g2
+comment1.target=int\ compare(GridPath,\ GridPath)
+comment1.text=\r\n\ Compares\ two\ GridPath\ objects\ based\ on\ their\ total\ cost.\r\n\ If\ the\ total\ cost\ is\ equal,\ compares\ based\ on\ the\ heuristic\ cost.\r\n\ \r\n\ @param\ g1\ The\ first\ GridPath\ object\ to\ compare.\r\n\ @param\ g2\ The\ second\ GridPath\ object\ to\ compare.\r\n\ @return\ A\ negative\ integer\ if\ g1\ has\ a\ lower\ total\ cost,\ a\ positive\ integer\ if\ g2\ has\ a\ lower\ total\ cost,\r\n\ \ \ \ \ \ \ \ \ or\ zero\ if\ their\ total\ costs\ are\ equal.\r\n
+numComments=2

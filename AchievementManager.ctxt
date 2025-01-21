@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=AchievementManager
+comment0.text=\r\n\ Manages\ achievements\ in\ the\ game.\ Sets\ up\ the\ achievements\ and\ checks\ when\ they\ are\ completed.\r\n\ \r\n\ @author\:\ Ryan\ Du\r\n\ @version\:\ January\ 2024\r\n
+comment1.params=
+comment1.target=AchievementManager()
+comment1.text=\r\n\ Initializes\ the\ achievements.\r\n
+comment2.params=
+comment2.target=void\ initializeAgricultureA()
+comment2.text=\r\n\ Sets\ up\ the\ achievements\ of\ type\ AgriculutreA.\ The\ achievement\ is\r\n\ based\ on\ the\ total\ number\ of\ plants\ made.\r\n
+comment3.params=
+comment3.target=void\ initializeAgricultureB()
+comment3.text=\r\n\ Sets\ up\ the\ achievements\ of\ type\ AgricultureB.\ The\ achievement\ is\ \r\n\ based\ on\ unlocking\ a\ new\ plant.\r\n
+comment4.params=
+comment4.target=void\ updateTotalPlant()
+comment4.text=\r\n\ Increases\ the\ total\ plants\ by\ 1.\ Checks\ if\ the\ total\ plant\ \r\n\ matches\ the\ requirements\ for\ completing\ an\ achievement.\r\n
+comment5.params=num
+comment5.target=void\ loadAgricultureA(int)
+comment6.params=id
+comment6.target=void\ updateLatestPlant(ObjectID)
+numComments=7

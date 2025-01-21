@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=AchievementBanner
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ AchievementBanner\ here.\r\n\ \r\n\ @author\:\ Ryan\ Du\r\n\ @version\:\ January\ 2024\r\n
+comment1.params=achievement\ completed
+comment1.target=AchievementBanner(Achievement,\ boolean)
+comment1.text=\r\n\ Constructs\ an\ AchievementBanner\ with\ a\ specified\ achievement\ and\ completion\ status.\r\n\r\n\ @param\ achievement\ The\ Achievement\ object\ associated\ with\ the\ banner.\r\n\ @param\ completed\ \ \ A\ boolean\ indicating\ whether\ the\ achievement\ is\ completed.\r\n
+comment2.params=
+comment2.target=void\ initialize()
+comment2.text=\r\n\ Initializes\ the\ AchievementBanner\ by\ loading\ the\ appropriate\ image\ based\ on\ completion\ status.\r\n
+comment3.params=
+comment3.target=Achievement\ getAchievement()
+numComments=4

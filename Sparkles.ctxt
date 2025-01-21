@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Sparkles
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Sparkles\ here.\r\n\ \r\n\ @author\:\ Ryan\ Du\ \r\n\ @version\:\ January\ 2024\r\n
+comment1.params=d
+comment1.target=Sparkles(DirtTile)
+comment1.text=\r\n\ Constructor\ for\ Sparkles\ class.\r\n\ \r\n\ @param\ d\ The\ DirtTile\ associated\ with\ the\ sparkles.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ method\ for\ Sparkles.\r\n\ Controls\ the\ behavior\ of\ the\ sparkles,\ including\ random\ spawning.\r\n
+comment3.params=
+comment3.target=void\ spawnSparkles()
+comment3.text=\r\n\ Spawns\ sparkles\ effect\ at\ a\ random\ position\ relative\ to\ the\ DirtTile.\r\n
+numComments=4

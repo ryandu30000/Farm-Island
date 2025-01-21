@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=ItemConvertible
+comment0.text=\r\n\ Gets\ the\ GreenfootImage\ associated\ with\ this\ item-convertible\ object.\r\n\ \r\n\ @return\ The\ GreenfootImage\ representing\ the\ item.\r\n
+comment1.params=
+comment1.target=greenfoot.GreenfootImage\ getItemImage()
+numComments=2

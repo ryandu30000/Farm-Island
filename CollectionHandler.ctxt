@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=CollectionHandler
+comment0.text=\r\n\ The\ CollectionHandler\ class\ manages\ the\ collection\ and\ harvesting\ of\ plants\ in\ the\ game.\r\n\ It\ handles\ the\ interaction\ between\ tools,\ plants,\ and\ the\ game\ world,\ providing\ functionality\r\n\ for\ collecting\ and\ harvesting\ resources.\r\n\ \r\n\ This\ class\ is\ responsible\ for\ processing\ collection\ actions,\ checking\ tool\ efficiency,\ updating\ the\ inventory,\ handling\ currency,\ and\ playing\ harvesting\ sounds.\r\n\ @author\:\ Zhaoqi\ Xu\ \r\n\ @version\ January\ 2023\r\n
+comment1.params=world
+comment1.target=void\ initialize(GameWorld)
+comment1.text=\r\n\ Initializes\ the\ collection\ handler\r\n\ \r\n\ @param\ world\ the\ world\ to\ initialize\ from\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Toggle\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=plant
+comment3.target=void\ collect(Plant)
+comment3.text=\r\n\ collects\ and\ processes\ the\ plant\r\n\ \r\n\ @param\ plant\ the\ plant\ to\ process\r\n
+comment4.params=plant
+comment4.target=boolean\ shovel(Plant)
+comment4.text=\r\n\ removes\ the\ plant\ and\ gives\ a\ seed\r\n\ @param\ plant\ the\ plant\ to\ be\ removed\r\n\ @return\ boolean\ has\ the\ plant\ been\ removed\r\n
+comment5.params=
+comment5.target=void\ harvestSound()
+comment5.text=\r\n\ plays\ the\ harvesting\ sound\r\n
+numComments=6

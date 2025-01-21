@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ForegroundEffect
+comment0.text=\r\n\ A\ class\ representing\ foreground\ effects.\r\n\ These\ effects\ are\ displayed\ above\ other\ objects\ in\ the\ world.\r\n\ \r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=effect\ image
+comment1.target=ForegroundEffect(int,\ java.lang.String)
+comment1.text=\r\n\ Constructs\ a\ foreground\ effect\ using\ an\ image\ file.\r\n\ \r\n\ @param\ effect\ \ \ The\ type\ of\ effect\ (e.g.,\ FLOAT,\ SHAKE).\r\n\ @param\ image\ \ \ \ The\ image\ to\ be\ displayed\ for\ the\ effect.\r\n
+comment2.params=effect\ image
+comment2.target=ForegroundEffect(int,\ greenfoot.GreenfootImage)
+comment2.text=\r\n\ Constructs\ a\ foreground\ effect\ using\ a\ GreenfootImage.\r\n\ \r\n\ @param\ effect\ \ \ The\ type\ of\ effect\ (e.g.,\ FLOAT,\ SHAKE).\r\n\ @param\ image\ \ \ \ The\ GreenfootImage\ to\ be\ displayed\ for\ the\ effect.\r\n
+comment3.params=effect\ image\ duration
+comment3.target=ForegroundEffect(int,\ greenfoot.GreenfootImage,\ int)
+comment3.text=\r\n\ Constructs\ a\ foreground\ effect\ with\ a\ specified\ duration.\r\n\ \r\n\ @param\ effect\ \ \ \ The\ type\ of\ effect\ (e.g.,\ FLOAT,\ SHAKE).\r\n\ @param\ image\ \ \ \ \ The\ GreenfootImage\ to\ be\ displayed\ for\ the\ effect.\r\n\ @param\ duration\ \ The\ duration\ of\ the\ effect\ in\ acts.\r\n
+comment4.params=effect\ image\ duration\ speed
+comment4.target=ForegroundEffect(int,\ greenfoot.GreenfootImage,\ double,\ double)
+comment4.text=\r\n\ Constructs\ a\ foreground\ effect\ with\ a\ specified\ duration\ and\ speed.\r\n\ \r\n\ @param\ effect\ \ \ \ The\ type\ of\ effect\ (e.g.,\ FLOAT,\ SHAKE).\r\n\ @param\ image\ \ \ \ \ The\ GreenfootImage\ to\ be\ displayed\ for\ the\ effect.\r\n\ @param\ duration\ \ The\ duration\ of\ the\ effect\ in\ acts.\r\n\ @param\ speed\ \ \ \ \ The\ speed\ at\ which\ the\ effect\ occurs.\r\n
+comment5.params=
+comment5.target=void\ act()
+comment5.text=\r\n\ Acts\ on\ the\ foreground\ effect.\r\n
+numComments=6

@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=GameButton
+comment0.text=\r\n\ Button\ that\ zooms\ in\ when\ hovering\r\n\ \r\n\ @author\:\ Zhaoqi\ Xu\ \ \r\n\ @version\:\ January\ 2024\r\n
+comment1.params=name
+comment1.target=GameButton(java.lang.String)
+comment2.params=name\ size
+comment2.target=GameButton(java.lang.String,\ int)
+comment2.text=\r\n\ Same\ as\ above\r\n\ @param\ size\ size\ of\ button\ width\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Overrides\ the\ act\ method\ from\ the\ superclass.\r\n\ Calls\ the\ superclass\ act\ method\ to\ handle\ button\ interactions.\r\n
+comment4.params=
+comment4.target=boolean\ hoveringThis()
+comment4.text=\r\n\ Checks\ if\ the\ mouse\ is\ currently\ hovering\ over\ the\ button.\r\n\ @return\ True\ if\ the\ mouse\ is\ hovering\ over\ the\ button,\ false\ otherwise.\r\n
+comment5.params=
+comment5.target=void\ release()
+comment5.text=\r\n\ Sets\ the\ button\ image\ to\ the\ main\ image,\ representing\ the\ release\ state.\r\n
+comment6.params=
+comment6.target=void\ click()
+comment6.text=\r\n\ Sets\ the\ button\ image\ to\ the\ click\ image,\ representing\ the\ click\ state.\r\n
+comment7.params=
+comment7.target=void\ hover()
+comment7.text=\r\n\ Sets\ the\ button\ image\ to\ the\ hover\ image,\ represnting\ the\ hover\ state\ \r\n
+comment8.params=text\ x\ y\ textSize
+comment8.target=void\ drawText(java.lang.String,\ int,\ int,\ int)
+numComments=9

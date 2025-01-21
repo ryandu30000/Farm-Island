@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=FeaturedFrame
+comment0.text=\r\n\ A\ class\ representing\ a\ frame\ for\ displaying\ a\ featured\ item\ in\ the\ shop.\r\n\ This\ class\ extends\ ItemFrame\ and\ adds\ functionality\ to\ display\ additional\ information\ about\ the\ featured\ item.\r\n\ \ \r\n\ @author\:\ Zhaoqi\ Xu\r\n\ @version\:\ January\ 2024\r\n
+comment1.params=purchase
+comment1.target=FeaturedFrame(MenuButton)
+comment1.text=\r\n\ Constructs\ a\ FeaturedFrame\ with\ a\ specified\ purchase\ button.\r\n\ \r\n\ @param\ purchase\ The\ MenuButton\ representing\ the\ purchase\ button\ for\ the\ featured\ item.\r\n
+comment2.params=item
+comment2.target=void\ updateDisplay(ShopItem)
+comment2.text=\r\n\ Updates\ the\ display\ of\ the\ featured\ item\ with\ additional\ information.\r\n\ \r\n\ @param\ item\ The\ ShopItem\ representing\ the\ featured\ item.\r\n
+comment3.params=amount
+comment3.target=void\ updatePrice(int)
+comment3.text=\r\n\ Updates\ the\ displayed\ price\ based\ on\ the\ specified\ amount.\r\n\ \r\n\ @param\ amount\ The\ amount\ used\ to\ calculate\ the\ updated\ price.\r\n
+comment4.params=ID
+comment4.target=void\ updateID(ObjectID)
+comment4.text=\r\n\ Updates\ the\ displayed\ item\ in\ the\ frame\ and\ adjusts\ its\ scale.\r\n\ \r\n\ @param\ ID\ The\ new\ ObjectID\ representing\ the\ featured\ item.\r\n
+comment5.params=
+comment5.target=void\ drawFrame()
+comment5.text=\r\n\ Draws\ the\ frame\ with\ the\ updated\ information.\r\n
+comment6.params=
+comment6.target=void\ reset()
+comment6.text=\r\n\ Resets\ the\ frame\ to\ display\ default\ information.\r\n
+comment7.params=
+comment7.target=ShopItem\ getItem()
+comment7.text=\r\n\ Gets\ the\ ShopItem\ associated\ with\ the\ featured\ frame.\r\n\ \r\n\ @return\ The\ ShopItem\ associated\ with\ the\ featured\ frame.\r\n
+numComments=8

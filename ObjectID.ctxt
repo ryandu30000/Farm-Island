@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ObjectID
+comment0.text=\r\n\ ObjectID\ enum\ represents\ the\ unique\ identifiers\ for\ various\ in-game\ objects.\r\n\ It\ provides\ methods\ to\ obtain\ related\ images\ for\ display\ purposes.\ \r\n\ \r\n\ @author\:\ Zhaoqi\ Xu\r\n\ @version\:\ January\ 2024\r\n
+comment1.params=
+comment1.target=ObjectID\ getSeedID()
+comment1.text=\r\n\ Gets\ the\ corresponding\ seed\ ID\ for\ crops.\r\n\ \r\n\ @return\ The\ seed\ ID\ related\ to\ the\ crop,\ or\ default\ WHEAT_SEED\ if\ not\ found.\r\n
+comment2.params=
+comment2.target=greenfoot.GreenfootImage\ getDisplayImage()
+comment2.text=\r\n\ Gets\ the\ display\ image\ associated\ with\ the\ object.\r\n\ \r\n\ @return\ The\ GreenfootImage\ for\ displaying\ the\ object.\r\n
+comment3.params=
+comment3.target=greenfoot.GreenfootImage\ getToolImage()
+comment3.text=\r\n\ Gets\ the\ tool\ image\ associated\ with\ the\ object.\r\n\ \r\n\ @return\ The\ GreenfootImage\ for\ displaying\ the\ tool.\r\n
+numComments=4

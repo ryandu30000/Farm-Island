@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=AchievementNotification
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ AchievementNotification\ here.\r\n\ \r\n\ @author\:\ Ryan\ Du\ \r\n\ @version\:\ January\ 2024\r\n
+comment1.params=achievement
+comment1.target=AchievementNotification(Achievement)
+comment1.text=\r\n\ Set's\ the\ respective\ image\ for\ the\ respective\ achievement\ \r\n\ @param\ achievement\ \r\n
+comment2.params=
+comment2.target=void\ initialize()
+comment2.text=\r\n\ Intializes\ the\ achievement\ notification\r\n
+numComments=3
